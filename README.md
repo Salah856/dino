@@ -3,6 +3,7 @@
 PyTorch implementation and pretrained models for DINO. For details, see **Emerging Properties in Self-Supervised Vision Transformers**.  
 [[`blogpost`](https://ai.facebook.com/blog/dino-paws-computer-vision-with-self-supervised-transformers-and-10x-more-efficient-training)] [[`arXiv`](https://arxiv.org/abs/2104.14294)]
 
+
 <div align="center">
   <img width="100%" alt="DINO illustration" src=".github/dino.gif">
 </div>
@@ -128,7 +129,9 @@ Full command.
 </summary>
 
 ```
+
 python run_with_submitit.py --arch deit_small --epochs 300 --teacher_temp 0.07 --warmup_teacher_temp_epochs 30 --norm_last_layer false --data_path /path/to/imagenet/train --output_dir /path/to/saving_dir
+
 ```
 
 </details>
