@@ -169,9 +169,6 @@ python visualize_attention.py
   <img width="100%" alt="Self-attention from a Vision Transformer with 8x8 patches trained with DINO" src=".github/attention_maps.png">
 </div>
 
-## License
-See the [LICENSE](LICENSE) file for more details.
-
 ## Citation
 If you find this repository useful, please consider giving a star :star: and citation :t-rex::
 ```
